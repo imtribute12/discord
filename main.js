@@ -74,8 +74,36 @@ client.on(Events.InteractionCreate, async (interaction) => {
 //if anybody wriites anything in the chat it will reply with the same message
 client.on("messageCreate", (message) => {
   if (message.author.bot) return;
-  if (message.author.id === "407221696865763330") {
+  if (message.author.id === "195239730428903426") {
     message.reply("SİSKO SUS");
+  }
+});
+
+client.on("messageCreate", (message) => {
+  if (message.author.bot) return;
+  if (message.author.id === "168290436971102208") {
+    message.reply("LUTFU SUPER BİRİ");
+  }
+});
+
+client.on("messageCreate", (message) => {
+  if (message.author.bot) return;
+  if (message.author.id === "407221696865763330") {
+    message.reply("KONUS KRALICE KONUS");
+  }
+});
+
+client.on("messageCreate", (message) => {
+  if (message.author.bot) return;
+  if (message.author.id === "262989865447063574") {
+    message.reply("aglama");
+  }
+});
+
+client.on("messageCreate", (message) => {
+  if (message.author.bot) return;
+  if (message.author.id === "211481492772093952") {
+    message.reply("ADAMIN MISIN MÜBAREK");
   }
 });
 
