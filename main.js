@@ -77,31 +77,23 @@ client.on("messageCreate", (message) => {
   if (message.author.id === "195239730428903426") {
     message.reply("SİSKO SUS");
   }
-});
-
-client.on("messageCreate", (message) => {
-  if (message.author.bot) return;
+  if (message.author.id === "691394634475372605") {
+    //reply message with cat photo
+    message.reply({
+      files: [
+        "https://cunkubaskasenyok.com/wp-content/uploads/2021/10/En-Cok-Tercih-Edilen-Kedi-Cinsleri-.jpg",
+      ],
+    });
+  }
   if (message.author.id === "168290436971102208") {
     message.reply("LUTFU SUPER BİRİ");
   }
-});
-
-client.on("messageCreate", (message) => {
-  if (message.author.bot) return;
   if (message.author.id === "407221696865763330") {
     message.reply("KONUS KRALICE KONUS");
   }
-});
-
-client.on("messageCreate", (message) => {
-  if (message.author.bot) return;
   if (message.author.id === "262989865447063574") {
     message.reply("aglama");
   }
-});
-
-client.on("messageCreate", (message) => {
-  if (message.author.bot) return;
   if (message.author.id === "211481492772093952") {
     message.reply("ADAMIN MISIN MÜBAREK");
   }
